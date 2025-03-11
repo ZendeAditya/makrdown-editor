@@ -16,7 +16,7 @@ A production-ready Next.js boilerplate with **Docker, Husky, Prettier, ESLint, J
 ```sh
 git clone https://github.com/your-username/my-next-template.git my-new-project
 cd my-new-project
-rm -rf .git
+rm -rf .git - Only if you don't take `Use This Template` option.
 git init
 npm install
 ./setup.sh
